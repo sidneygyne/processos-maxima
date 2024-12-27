@@ -1,0 +1,81 @@
+main {
+    font-family: "Ubuntu", serif;
+    background-color: #131e2d;
+    color: white;
+}
+
+body {
+    font-family: "Ubuntu", serif;
+    background-color: #131e2d;
+    color: white;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+main h1 {
+    font-family: "Bungee", sans-serif;
+    color: #fff;
+    padding-top: 30px;
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+main h2 {
+    font-family: "Bungee", sans-serif;
+    color: #fff;
+    padding-top: 30px;
+    text-align: center;
+    font-size: 2rem;
+    background-color: black;
+    padding: 1rem;
+}
+
+main h3 {
+    padding-top: 30px;
+    padding-left: 30px;
+    font-size: 1.5rem;
+}
+
+main ul {
+    padding-left: 60px;
+}
+
+main li {
+    padding-left: 0; 
+    list-style: circle;
+    font-size: 1rem;
+}
+
+
+h4 {
+    font-weight: 500;
+    font-size: 1.4rem;
+}
+
+h5,
+label {
+    font-weight: 500;
+    font-size: 1.2rem;
+    color: #fff;
+    
+}
+
+p {
+    font-weight: 200;
+    padding-top: 5px;
+    padding-bottom: 0px;
+}
+
+.container {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.processos {
+    padding-top: 4rem;
+}
+
+

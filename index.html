@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tec Info</title>
+
+    <link rel="stylesheet" href="./lib/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/navbar.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/main.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<body>
+
+    <header id="cabecalho">
+        <div class="navbar navbar-expand-lg navbar-dark navbar-custom flex-column">
+            <div class="flex-column">
+                <!-- <h1 class="site-title text-white">
+                    <a href="#" class="text-decoration-none text-white">TEC INFO</a>
+                </h1> -->
+
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu"
+                    aria-controls="menu" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <nav class="collapse navbar-collapse" id="menu">
+
+                    <ul class="nav navbar-nav nav-pills ms-auto d-flex flex-wrap">
+                        <!-- <h1>Procedimentos</h1> -->
+                        <li class="nav-item">
+                            <a href="#baixa" class="nav-link active">Baixa banco</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#desbloqueio" class="nav-link">Desbloqueio Gira</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#ajuste" class="nav-link">Ajuste</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="#criar-chave-ambiente" class="nav-link">Criar chave e ambiente</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#contrato" class="nav-link">Contratos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link"></a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+
+        <!-- div responsavel por deixar o item do menu ativo -->
+        <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true" class="container">
+
+            <div class="processos" id="baixa">
+                <h2>Baixa arquivo banco</h2>
+
+                <div class="processo">
+                    <h3>Banco – Baixar aquivo</h3>
+                    <ul>
+                        <li>Acesso básico</li>
+                        <li>Máxima</li>
+                        <li>Verifica o extrato para ver se teve pix ou transferência</li>
+                        <li>Mais</li>
+                        <li>Transmissão de arquivo</li>
+                        <li>Retorno</li>
+                        <li>Recepcionar</li>
+                        <li>Cobrança 400</li>
+                        <li>Conta final 63</li>
+                        <li>Salvar: Arquivos de retorno/máxima</li>
+                    </ul>
+                </div>
+
+                <div class="processo">
+                    <h3>Rotina 1502 – Processar arquivo e gerar impressão</h3>
+                    <ul>
+                        <li>Filial: 1</li>
+                        <li>Caixa banco: 341</li>
+                        <li>Moeda: Cobs</li>
+                        <li>Arquivo de retorno, seleciona o arquivo que baixou: ADM/Arquivo de retorno/Máxima
+                            Itaú/arquivo do dia</li>
+                        <li>Processar</li>
+                        <li>Ok</li>
+                        <li>Imprimir relatório padrão</li>
+                        <li>Verifica liquidação normal</li>
+                        <li>Anotar valor total pago</li>
+                        <li>Anotar títulos não baixados automaticamente</li>
+                        <li>Impressora</li>
+                        <li>Imprimir para arquivo</li>
+                        <li>Seleciona a pasta e salva: adm/retorno e baixas/máxima itau/2024 /mês/ salva com 1502 e o
+                            nome</li>
+                        <li>Fechar</li>
+                    </ul>
+                </div>
+
+                <div class="processo">
+                    <h3>Rotina 1207: baixa de título manual</h3>
+                    <ul>
+                        <li>Nosso número</li>
+                        <li>Pesquisar</li>
+                        <li>Seleciona</li>
+                        <li>Individual</li>
+                        <li>Confere valor</li>
+                        <li>Banco: 341</li>
+                        <li>Moeda: cobs</li>
+                        <li>Histórico: MOV data do dia </li>
+                        <li>Confirma</li>
+                    </ul>
+                </div>
+
+
+                <div class="processo">
+                    <h3>Rotina 604 – Fazer conciliação</h3>
+                    <ul>
+                        <li>Filial: 1</li>
+                        <li>Banco: 341</li>
+                        <li>Moeda: COBS</li>
+                        <li>Data de hoje</li>
+                        <li>Período: 01/01/2000 a data de hoje</li>
+                        <li>Pesquisa</li>
+                        <li>Confere o valor</li>
+                        <li>Data da compensação: data do dia </li>
+                        <li>Confere conciliação se valores estão ok</li>
+                        <li>Dois cliques para conciliar cada item</li>
+                        <li>Terminando clica em Fechar</li>
+                    </ul>
+                </div>
+
+                <div class="processo">
+                    <h3>Rotina 1220 – imprimir relatório de baixas</h3>
+                    <ul>
+                        <li>Banco 341</li>
+                        <li>Opções</li>
+                        <li>Analítico por valor</li>
+                        <li>Ordenar: código do cliente</li>
+                        <li>Imprimir relatório padrão</li>
+                        <li>Salvar arquivo: adm/retorno e baixas/máxima itau/2024 /mês/ salva com 1220 e o nome</li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="processos" id="desbloqueio">
+                <h2>Desbloqueio Gira - Diariamente</h2>
+
+                <div class="processo">
+                    <h3>Rotina 1220 – Relatório de baixas</h3>
+                    <ul>
+                        <li>Banco/Caixa: 341</li>
+                        <li>Aba opções: </li>
+                        <li>Relatórios: Analítico por cobrança</li>
+                        <li>Ordenar: Código do cliente</li>
+                        <li>Emitir</li>
+                    </ul>
+                </div>
+
+                <div class="processo">
+                    <h3>Confortar relatório emitido com planilha Bloqueio Jira 2 (Driver)</h3>
+                </div>
+
+                <div class="processo">
+                    <h3>Rotina 1203 – verificar extrato de baixa do cliente</h3>
+                    <ul>
+                        <li>Código do cliente</li>
+                        <li>Pesquisar</li>
+                        <li>Dois cliques no cliente</li>
+                        <li>Aba extrato</li>
+                        <li>Período: 01/01/2000 a 01/01/2050</li>
+                        <li>Lançamento: ambos</li>
+                        <li>Pesquisar</li>
+                    </ul>
+                </div>
+
+                <div class="processo">
+                    <h3>No gira – liberar no gira</h3>
+                    <ul>
+                        <li>Projetos</li>
+                        <li>Seleciona o produto</li>
+                        <li>Digita código do cliente com 5 dígitos</li>
+                        <li>Se não aparecer e que está bloqueado</li>
+                        <li>Adicionar organização</li>
+                        <li>Digita código do cliente com 5 dígitos</li>
+                        <li>Seleciona e adiciona = e já está liberado o cliente após esta ação</li>
+                    </ul>
+                </div>
+
+                <div class="processo">
+                    <h3>Excluir cliente da planilha</h3>
+                    <ul>
+                        <li>Excluir cliente da planilha</li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="processos" id="ajuste">
+                <h2>Liberação/Redução/ Orçamento de licenças</h2>
+
+                <div class="processo">
+                    <h3>Rotina 9703 - Orçamento </h3>
+                    <ul>
+                        <li>Consultar cliente </li>
+                        <li>Pesquisa cliente</li>
+                        <li>Guia: Lançamento de contrato mensal</li>
+                        <li>Verifica/altera produtos</li>
+                        <li>Quando o cliente faz a solicitação, responder e-mail para confirmar</li>
+                        <li>Rotina 1203 – validar alguma informação relevante no histórico antes de enviar email de
+                            orçamento</li>s
+                    </ul>
+                </div>
+
+                <div class="processo" class="orcamento">
+                    <h3>Rotina 9703 – Alteração de licenças - Após cliente enviar e-mail autorizando </h3>
+                    <ul>
+                        <li>Fazer ajuste de quantidade e valor total</li>
+                        <li>Clicar no tick (v) </li>
+                        <li>Salvar</li>
+                        <li>Consulta novamente o produto do cliente para confirmar alterações</li>
+                        <li>Obs: há casos que tem que incluir o produto novamente, em vez de fazer a alteração
+                            (geralmente produtos onprice):</li>
+                        <li>Campo produto digita código do produto</li>
+                        <li>Valor contrato</li>
+                        <li>Dia de vencimento, verificar nos produtos da lista</li>
+                        <li>Data de início do contrato, o faturamento e feito todo dia 20. Exemplo, hoje 28/10/2024,
+                            vencimento do cliente e todo dia 20, o primeiro faturamento após data de hoje e dia
+                            20/11/2024, portanto a dada de inicio de contrato vai ser dia 20/12/2024</li>
+                        <li>Recorrente: Sim</li>
+                        <li>Comissão: não</li>
+                        <li>Data final do contrato, data de início de contrato + 1 ano</li>
+                        <li>Quantidade de usuários: qtd de licenças sendo liberadas</li>
+                        <li>Quando MaxPedido +1</li>
+                        <li>Tipo de contrato: anual</li>
+                        <li>Data base: data do dia</li>
+                        <li>Incluir</li>
+                        <li>Clica em qualquer produto</li>
+                        <li>Salvar</li>
+                        <li>E pesquisa novamente para conferir</li>
+                    </ul>
+                </div>
+
+                <div class="processo">
+                    <h3>Rotina1214 – Inserir mensagem</h3>
+                    <ul>
+                        <li>Digita código do cliente e pesquisa</li>
+                        <li>Clica em qualquer quadrado dos resultados da pesquisa</li>
+                        <li>Acompanhar</li>
+                        <li>Em resultado de cobrança apaga e digita. Ex: Aquisição de 01 licença MaxPedido, cliente
+                            tinha 6 licenças a R$ 660,00 e com a aquisição de mais 1 licença ficou com 7 licenças a R$
+                            770,00. </li>
+                        <li>Confirma em e demais mensagens clica em não</li>
+                    </ul>
+                </div>
+
+                <div class="processo">
+                    <h3>Nuvem</h3>
+                    <ul>
+                        <li>Cadastro</li>
+                        <li>Licenças: (Obs: MaxPedido e Pedido de venda sempre uma licença a mais)</li>
+                        <li>Pesquisa o cliente (Obs: Pelo nome fantasia)</li>
+                        <li>Clica duas vezes no produto a ser alterado</li>
+                        <li>Atualiza quantidade e salva</li>
+                    </ul>
+                </div>
+
+
+                <div class="processo">
+                    <h3>Alimentar a planilha: Licenças Adicionais Cloud</h3>
+                </div>
+
+
+                <div class="processo">
+                    <h3>Responder Email</h3>
+                    <ul>
+                        <p>Bom dia, Boa tarde</p>
+                        <p>Licença(s) ajustada conforme solicitado.</p>
+                        <p>Abraços,</p>
+                    </ul>
+                </div>
+
+                <div class="processo" id="observacoes">
+                    <h3>Observações</h3>
+                    <ul>
+                        <li>QTD de MaxMotorista tem que ser igual do MaxRoterizador</li>
+                        <li>Quando MaxPedido Cloud, na quantidade sempre aumentar +1 - nas licenças e no ambiente</li>
+                        <li>MaxPedidoPlux = maxPedido + maxPesquisa</li>
+                        <li>MaxGestao plus = Max gestão + roteirizador Rca</li>
+                        <li>Quando solicita a liberação do MaxPedido Cloud e o cliente também possui o Extrator do Max
+                            Pedido. Fazer a liberação do Extrator junto</li>
+                        <li>MaxProntaEntrega cloud = MaxProntaEntrega + (MaxPedidos somente na nuvem) ** liberar a mesma
+                            quantidade na nuvem, tanto do MaxProntaEntrega quanto do MaxPedidos.</li>
+                        <li>MaxPedido ON-PREMISES ou outro produto ON-PREMISES, cliente tem que ter UPGRADE CLOUD para o
+                            produto que solicita, para que façamos as alterações conforme acima, se não tiver o cliente
+                            tem que passar pelo comercial para comprar novas licenças. Passa email comercial@, com cópia
+                            para junianaa.jesus@</li>
+                    </ul>
+                </div>
+
+
+            </div>
+
+            <div class="processos" id="criar-chave-ambiente">
+                <h2>Libração de chave e ambiente em nuve</h2>
+
+                <div class="processo">
+                    <h3>Néctar</h3>
+                    <ul>
+                        <li>Buscar por notificação da Fabiana</li>
+                        <li>Clica no nome do cliente</li>
+                        <li>Verifica qual produto e a liberação</li>
+                        <li>Clica no comentário para responder e marca a Fabiana Almeida com mensagem: Chave nomeProduto
+                            gerada: númeroChave. Ambiente criado</li>
+                        <li>Busca no chat as informações do cliente, card do pre faturamento</li>
+                    </ul>
+                </div>
+
+                <div class="processo">
+                    <h3>9703</h3>
+                    <ul>
+                        <li>Consultar cliente</li>
+                        <li>Guia: Lançamento de contrato mensal</li>
+                        <li>Desmarcar a opção cliente suspenso</li>
+                        <li>Clicar no tick (v)</li>
+                        <li class="destaque">Verificar data de início e alterar se for necessário</li>
+                        <li>Salvar</li>
+                        <li>Vai na guia instalações e preenche</li>
+                        <li>Código do produto</li>
+                        <li>Quantidade, </li>
+                        <li>Período dataLiberação a 01/01/2050</li>
+                        <li>
+                            <a href="#observacoes">Ver Observaçoes</a>
+                        </li>
+                        <li>Marca a opção produção</li>
+                        <li>Incluir</li>
+                        <li>Salva</li>
+                        <li>Volta na guia Lançamento de contratos e confere se está tudo certo</li>
+                        <li>Volta na guia Instalações copia a chave de instalação</li>
+                        <li>Cola chave de instalação na mensagem da marcação do néctar que começou a digitar no início
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="processo">
+                    <h3>Criar ambiente: acessar Gestão de nuvem</h3>
+                    <ul>
+                        <li>Quando o cliente não tiver cadastrado
+                            <ul>
+                                <li>Clientes</li>
+                                <li>Novo</li>
+                                <li>Código do cliente</li>
+                                <li>Prefixo: Primeiro nome da razão social</li>
+                                <li>CNPJ</li>
+                                <li>Razão social</li>
+                                <li>Nome fantasia</li>
+                                <li>Processar preços: ativo</li>
+                                <li>Status: ativo</li>
+                                <li>Salva</li>
+                            </ul>
+                        </li>
+
+                        <li>Vai no menu em licenças
+                            <ul>
+                                <li>Novo</li>
+                                <li>Seleciona o produto </li>
+                                <li>Código do cliente</li>
+                                <li>Quantidade</li>
+                                <li>Validade: data futura: 01/01/2050 (Obs: em alguns casos a liberação para o cliente e
+                                    temporário ai colocar a data correta)</li>
+                                <li>Status: ativo</li>
+                                <li>Expirar licença: inativo</li>
+                                <li>Salva</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+
+
+                <div class="processo">
+                    <h3>Envia mensagem trello com: Ambiente criado</h3>
+                </div>
+
+
+                <div class="processo">
+                    <h3>Atualiza Planilha: Planilhas de controle - Comissão / Chave / SMS</h3>
+                    <ul>
+                        <li>Ctrl +f para localizar</li>
+                        <li>Código do cliente</li>
+                        <li>Seleciona o cliente e coloca na cor verde</li>
+                        <li>Adicionar cobrança altera para “cobrança adicionada”</li>
+                        <li>Em chave liberada: chave solicitada colocar data da liberação </li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="processos" id="contrato">
+                <h2>Passagem de bastão</h2>
+
+                <div class="processo">
+                    <h3>Rda stration: Copiar a mensagem</h3>
+                    <ul>
+                        <li>Relacionar</li>
+                        <li>Automação de marketing</li>
+                        <li>Pesquisa por pós-venda</li>
+                        <li>Localiza: Fluxo pós-venda máxima</li>
+                        <li>Três pontinhos selecionar editar</li>
+                        <li>Seleciona mensagem</li>
+                        <li>Conteúdo</li>
+                        <li>Editar</li>
+                        <li>Editar</li>
+                        <li>Previsualizar</li>
+                        <li>CTRL + A para selecionar a mensagem toda e copia</li>
+                        <li>Colar no e-mail</li>
+                    </ul>
+                </div>
+
+                <div class="processo">
+                    <h3>Doc Sales - Somente para cliente novo – Link do contrato</h3>
+                    <ul>
+                        <li>Seleciona o contrato, clica no nome</li>
+                        <li>Signatários</li>
+                        <li>No nome do contratante</li>
+                        <li>Copiar link do documento (clips)</li>
+                    </ul>
+                </div>
+
+                <div class="processo">
+                    <h3>Telefone do cliente - Rotina 9703 </h3>
+                    <ul>
+                        <li>Guia contatos verificar número de celular/whats app</li>
+                        <li>Salva contato no whats app – nome e código</li>
+                    </ul>
+                </div>
+
+                <div class="processo">
+                    <h3>Email - enviar</h3>
+                    <ul>
+                        <li>Quando termina o Pré-faturamento</li>
+                        <li>Localiza Email passagem de bastão</li>
+                        <li>Responder a todos</li>
+                        <li>Cola no Email a mensagem no Rda stration
+                            <ul>
+                                <li>Whats: (62) 99162 2336.</li>
+                                <li>Faz alterações</li>
+                            </ul>
+                        </li>                        
+                        <li>Colar link do contrato</li>
+                        <li>Envia e-mail</li>
+                    </ul>
+                </div>
+
+                <div class="processo" id="mensagens">
+                    <h3>Envia Whats app</h3>
+                    <ul>
+                        <li>Cliente Novo
+                            <ul>
+                                <li>Bom dia, Alex, tudo bem? Me chamo Sidney sou do dep. financeiro da Máxima Tech. Meu
+                                    contato é para agradecer a parceria fechada conosco e me colocar à disposição para
+                                    assuntos relacionados ao financeiro. Logo mais suas notas fiscais e boletos serão
+                                    enviados a você.
+                                    O contrato LGPD foi enviado para seu e-mail, e após a assinatura a equipe de
+                                    implantação irá entrar em contato para seguir com a implantação, aproveito para
+                                    compartilhar o link do contrato para assinatura:_ __
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li>Cliente Base
+                            <ul>
+                                <li>
+                                    Bom dia, Alex, tudo bem? Me chamo Sidney sou do dep. financeiro da Máxima Tech. Meu
+                                    contato é para agradecer a parceria fechada conosco e me colocar à disposição para
+                                    assuntos relacionados ao financeiro. Logo mais suas notas fiscais e boletos serão
+                                    enviados a você.
+                                    O contrato LGPD foi enviado para seu e-mail, e após a assinatura a equipe de
+                                    implantação irá entrar em contato para seguir com a implantação, aproveito para
+                                    compartilhar o link do contrato para assinatura:_ __
+
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li>Contrato Assinado
+                            <ul>
+                                <li>Boa tarde, Luca, tudo bem? Sou o Sidney do dep. financeiro da Máxima Tech. Meu
+                                    contato é para agradecer a parceria fechada conosco, verificamos que seu contrato
+                                    foi assinado, logo mais nossa equipe de implantação irá entrar em contato para
+                                    seguir com a implementação das soluções. abraço!
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li>Cobrar assinatura
+                            <ul>
+                                <li>
+                                    Bom dia, Wilder, tudo bem?
+                                </li>
+                                <li>
+                                    Aqui é o Sidney, da Máxima Tech. Gostaria de lembrá-lo(a) de que enviamos o contrato
+                                    referente aos serviços contratados pela ESTRELA DISTRIBUICAO LTDA para sua análise e
+                                    assinatura. Até o momento, não recebemos a versão assinada.
+                                    Caso tenha alguma dúvida ou necessite de ajustes, estamos à disposição para
+                                    auxiliá-lo(a) no que for necessário. A assinatura do contrato é fundamental para
+                                    formalizarmos o início da implementação das soluções.
+                                    Segue link atualizado do contrato:
+                                    Agradeço pela atenção e fico no aguardo de seu retorno.
+                                </li>
+                                <li>
+                                    Abraços,
+                                </li>
+
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="processos" id="contrato-assinado">
+                <h2>Após contrato assinado</h2>
+
+
+                <div class="processo">
+                    <h3>Salvar o contrato assinado</h3>
+                    <ul>
+                        <li>Z:\Comercial-Adm\007 - Controle de clientes\001 - Arquivo Digital - Clientes Máxima</li>
+                    </ul>
+                </div>
+
+                <div class="processo">
+                    <h3>No néctar - enviar ficha de implantação</h3>
+                    <ul>
+                        <li>Oportunidades</li>
+                        <li>Na coluna contrato enviado procura pelo card do cliente, clica 2x, </li>
+                        <li>Localizar card pré-faturamento</li>
+                        <li>Localizar card pré-faturamento</li>
+                        <li>Marcar Fabyana Almeida</li>
+                        <li>Anexa ficha de implantação: Z:\Administrativo\FATURAMENTO\2024 </li>
+                        <li>Inserir mensagem: Segue ficha de implantação.</li>
+                        <li>Enviar mensagem</li>
+                    </ul>
+                </div>
+
+                <div class="processo">
+                    <h3>No Nectar - mover contrato para ganho </h3>
+                    <ul>
+                        <li>Voltar ao card</li>
+                        <li>Arrastar para coluna ganho com a mensagem de ganho e salva</li>
+                    </ul>
+                </div>
+
+                <div class="processo">
+                    <h3>Planilha: CONTRATOS - CLIENTES NOVOS E BASE (NOVOS PROJETOS)</h3>
+                    <ul>
+                        <li>Campos Assinado e Ficha Trello(Nectar) atualizar com sim e dadas</li>
+                        <li>Procura e-mail da passagem de bastão</li>
+                        <li>Enviar e-mail e Whats app – Passagem de bastão - contrato assinado</li>
+                        <li>
+                            <a href="#contrato">Passagem de bastão</a>
+                            <a href="#mensagens">Mensagens</a>
+                        </li>
+                    </ul>
+                </div>
+
+
+            </div>
+
+            <div class="processos" id="">
+                <h2>teste</h2>
+
+
+                <div class="processo">
+                    <h3></h3>
+                    <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
+
+                <div class="processo">
+                    <h3></h3>
+                    <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
+
+                <div class="processo">
+                    <h3></h3>
+                    <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
+
+                <div class="processo">
+                    <h3></h3>
+                    <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
+
+
+            </div>
+
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>
+                2024 &copy, MAXIMA TECH - Todos os direitos reservados. Desenvolvido por Sidney Rodrigues Magalhães
+            </p>
+        </div>
+    </footer>
+
+    <script src="./lib/bootstrap.bundle.min.js"></script>
+    <script src="./js/image-card.js"></script>
+</body>
+
+</html>
