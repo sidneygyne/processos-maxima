@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tec Info</title>
+
+    <link rel="stylesheet" href="./lib/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/navbar.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/main.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<body>
+
+    <header id="cabecalho">
+        <div class="navbar navbar-expand-lg navbar-dark navbar-custom flex-column">
+            <div class="flex-column">
+                <!-- <h1 class="site-title text-white">
+                    <a href="#" class="text-decoration-none text-white">TEC INFO</a>
+                </h1> -->
+
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu"
+                    aria-controls="menu" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <nav class="collapse navbar-collapse" id="menu">
+
+                    <ul class="nav navbar-nav nav-pills ms-auto d-flex flex-wrap">
+                        <!-- <h1>Procedimentos</h1> -->
+
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link destaque">INICIAL</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="#pre-faturamento-treinamento" class="nav-link">Treinamento</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#pre-faturamento-cdu" class="nav-link">CDU-Usuário adicional</a>
+                        </li>
+                        <!-- <li class="nav-item">
+                            <a href="#" class="nav-link"></a>
+                        </li> -->
+                        <li class="nav-item">
+                            <a href="/puca.html" class="nav-link">Puca</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+
+        <!-- div responsavel por deixar o item do menu ativo -->
+        <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true" class="container">
+
+            <div class="processos" id="pre-faturamento-treinamento">
+                <h2>Pré Faturamento – Treinamento normal e bonificado</h2>
+
+
+                <div class="processo">
+                    <h3>Nectar - Baixar proposta</h3>
+                    <ul>
+                        <li>Oportunidade</li>
+                        <li>Ícone dos clips</li>
+                        <li>Baixar proposta</li>
+                    </ul>
+                </div>
+
+                <div class="processo">
+                    <h3>9703 - Preencher aba de produtos conforme proposta</h3>
+                    <ul>
+                        <li>Guia produtos</li>
+                        <li>Exclui tudo</li>
+                        <li>Inserir o novo produto conforme proposta</li>
+                        <ul>
+                            <li>Situação: Bonificado ou Faturamento</li>
+                            <li>Serviço conforme proposta</li>
+                            <li>Implantação: quase sempre não, coloca sim quando tiver implantação na ficha</li>
+                        </ul>
+
+                    </ul>
+                </div>
+
+                <div class="processo">
+                    <h3>9703 - Fazer a ficha de faturamento e salvar fichas na pasta</h3>
+                    <ul>
+                        <li>Obs: comissão só Ana Paula - 646</li>
+                        <li>Guia Contatos – Verifica se responsável está cadastrado, se não cadastrar</li>
+                        <ul>
+                            <li>Nome do responsável pela compra: ver proposta</li>
+                            <li>Cargo: Geralmente – TI</li>
+                            <li>Tipo de contato: 5</li>
+                            <li>Salva e entra novamente</li>
+                        </ul>
+                        <li>Guia pre faturamento</li>
+                        <ul>
+                            <li>Incluir</li>
+                            <li>Responsável pela venda: 646 – Ana Paula</li>
+                            <li>Responsável pela compra – ver proposta</li>
+                            <li>Data da venda: data do dia que esta fazendo o pré-faturamento</li>
+                            <li>Ver se e Bonificado ou Faturado</li>
+                            <ul>
+                                <li>Quando bonificado</li>
+                                <ul>
+                                    <li>Guia Produto</li>
+                                    <li>Insere o produto: </li>
+                                    <li>Quantidade de horas</li>
+                                    <li>Valor R$ 0,00 pois é bonificado</li>
+                                    <li>Inserir observação do contrato</li>
+                                    <li>Visualizar – para conferir tudo</li>
+                                    <li>Salva</li>
+                                </ul>
+                                <li>Quando não bonificado</li>
+                                <ul>
+                                    <li>Guia Produto</li>
+                                    <li>Insere o produto: </li>
+                                    <li>Quantidade de horas</li>
+                                    <li>Valor</li>
+                                    <li>Inserir observação do contrato</li>
+                                    <li>Guia comissão: gerente de negócio 646 – 1,5</li>
+                                    <li>Guia Pagamento: lançar números de parcela, valor total, e data do 1º pagamento
+                                    </li>
+                                    <li>Visualizar – para conferir tudo</li>
+                                    <li>Salvar </li>
+                                </ul>
+                            </ul>
+                        </ul>
+
+                        <li>Imprimir ficha de implantação e salvar na pasta</li>
+                        <ul>
+                            <li>Guia Pre faturamento</li>
+                            <li>Icone impressora abaixo do lado de salvar</li>
+                            <li>Imprimir ficha de implantação</li>
+                            <li>Salvar na pasta Faturamento/Faturamento</li>
+                            <li>Criar pasta com código e nome do cliente</li>
+                            <li>Ao salvar o arquivo na pasta do cliente, colocar nome conforme exemplo:</li>
+                            <li>Exemplo: 03268 - 2024 12 30 – Implantação (Código – Data em inglês – Implantação)</li>
+                        </ul>
+                        <li>Imprimir Ficha de Faturamento e salvar na pasta</li>
+                        <ul>
+                            <li>Mesmo passo a passo de Imprimir ficha de implantação e salvar na pasta</li>
+                        </ul>
+                    </ul>
+                </div>
+
+                <div class="processo">
+                    <h3>Proposta e salvar na pasta faturamento</h3>
+                </div>
+
+                <div class="processo">
+                    <h3>Colocar no drive</h3>
+                    <ul>
+                        <li>Drive: Faturamento Máxima</li>
+                        <li>Cria pasta com código e nome do cliente</li>
+                        <li>Copia Ficha de faturamento e Proposta e colar na pasta que criou</li>
+                    </ul>
+                </div>
+
+                <div class="processo">
+                    <h3>Colocar na pasta de clientes</h3>
+                    <ul>
+                        <li>Copiar ficha de faturamento e proposta para a pasta : Z:\Comercial-Adm\007 - Controle de
+                            clientes\001 - Arquivo Digital - Clientes Máxima
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="processo">
+                    <h3>Subir ficha no trelo com os dados</h3>
+                    <ul>
+                        <li>Clica no ícone de quadrado com ponto de exclamação</li>
+                        <li>Em observação marcar @Fabyanna Almeida e inserir mascara conforme modelo abaixo:
+                        <li>Obs: da Máscara: Colar primeiro no bloco de notas para depois copiar e colocar no nectar
+                        </li>
+                        <textarea readonly id="7" rows="7" class="output-texto">
+                                    Segue ficha de implantação
+                                    
+                                    1134 - STO ATACADISTA DE ALIMENTOS EIRELI
+
+
+                                    Hora de customização Pedido de Venda 40  horas R$ 8.000,00
+
+
+                                    ERP: WINTHOR
+
+                                    Responsável: Vinicius Faria  - vinicius.faria@stoatacadista.com.br / 61 9644-3738
+
+                                    Motivo: PEDIDO-53571 - BAR CODE NO APK.
+                                    </textarea>
+                        <button onclick="copiar('7')" class="botao_ação">Copiar</button>
+                        </li>
+
+                        <li>Insere ficha e implantação</li>
+                        <li>Enviar</li>
+                        <li>Na sessão Pre-faturamento: Move card para ganho com a mensagem Ganha - Treinamento</li>
+
+                    </ul>
+                </div>
+            </div>
+
+            <div class="processos" id="pre-faturamento-cdu">
+                <h2>Pré Faturamento – CDU – usuário adicional</h2>
+
+                <div class="processo">
+                    <h3>Nectar - Baixar proposta</h3>
+                    <ul>
+                        <li>Oportunidade</li>
+                        <li>Ícone dos clips</li>
+                        <li>Baixar proposta</li>
+                    </ul>
+                </div>
+
+                <div class="processo">
+                    <h3>9703 - Preencher aba de produtos conforme proposta</h3>
+                    <ul>
+                        <li>Guia lançamento de contrato mensal: inserir nova licenças igual quando vai fazer a adição de
+                            licenças de produtos onprices</li>
+                        <ul>
+                            <li>Produto, valor da mensalidade, vencimento, </li>
+                            <li>Data de início do faturamento: de acordo com próximo faturamento</li>
+                            <li>Recorrente: sim</li>
+                            <li>Pag comissão: não</li>
+                            <li>Data final contrato: + 1 ano da data inicio faturamento</li>
+                            <li>Qtd de usuários</li>
+                            <li>Tipo: anual</li>
+                            <li>Data base: data do dia da inclusão da licença</li>
+                            <li>Tipo de índice: em branco</li>
+                        </ul>
+                        <li>Na aba instalações ajustar quantidade de licenças</li>
+                    </ul>
+                </div>
+
+                <div class="processo">
+                    <h3>9703 - Fazer a ficha de faturamento e salvar fichas na pasta</h3>
+                    <ul>
+                        <li>Guia Contatos – Verifica se responsável está cadastrado, se não cadastrar</li>
+                        <ul>
+                            <li>Nome do responsável pela compra: ver proposta</li>
+                            <li>Cargo: Geralmente – TI</li>
+                            <li>Tipo de contato: 5</li>
+                            <li>Salva e entra novamente</li>
+                        </ul>
+                        <li>Guia pré faturamento</li>
+                        <ul>
+                            <li>Incluir</li>
+                            <li>Responsável pela venda – conforme proposta – (nome + Inside)</li>
+                            <li>Responsável pela compra – ver proposta</li>
+                            <li>Data da venda: data do dia que está fazendo o Pré-faturamento</li>
+                            <li>Guia Produto: Insere o produto: somente Usuários adicionais</li>
+                            <li>Guia Suporte: Insere o produto: somente Licença de usuário mensal</li>
+                            <li>Guia Comissão: Gerente de negócio inserir vendedor da proposta com percentual sempre 5%
+                            </li>
+                            <li>o Guia pagamento: somente usuários adicionais conforme proposta (obs não gerar da
+                                mensalidade nessa guia)</li>
+                            <li>Mascara exemplo da observação: </li>
+                            <ul>
+                                <li>colocar no 1214 tambem </li>
+                                <li>Portal Executivo: 8 usu. R$ 1095,74 + 1 usu. R$ 120,00 = 9 usu. R$ 1215,74
+                                    (135,08/usu)</li>
+                            </ul>
+                            <li>Visualizar – para conferir tudo</li>
+                            <li>Salvar</li>
+                        </ul>
+                        <li>Imprimir ficha de Faturamento e salvar na pasta</li>
+                        <ul>
+                            <li>Guia Pre faturamento</li>
+                            <li>Icone impressora abaixo do lado de salvar</li>
+                            <li>Imprimir ficha de implantação</li>
+                            <li>Salvar na pasta Faturamento/Faturamento</li>
+                            <li>Criar pasta com código e nome do cliente</li>
+                            <li>Ao salvar o arquivo na pasta do cliente, colocar nome conforme exemplo:</li>
+                            <li>Exemplo: 03268 - 2024 12 30 – Implantação (Código – Data em inglês – Implantação)
+                            </li>
+                        </ul>
+                    </ul>
+                </div>
+
+                <div class="processo">
+                    <h3>Colocar no drive</h3>
+                    <ul>
+                        <li>Drive: Faturamento Máxima</li>
+                        <li>Cria pasta com código e nome do cliente</li>
+                        <li>Copia Ficha de faturamento e Proposta e colar na pasta que criou</li>
+                    </ul>
+                </div>
+
+                <div class="processo">
+                    <h3>Colocar na pasta de clientes</h3>
+                    <ul>
+                        <li>Copiar ficha de faturamento e proposta para a pasta : Z:\Comercial-Adm\007 - Controle de
+                            clientes\001 - Arquivo Digital - Clientes Máxima</li>
+                    </ul>
+                </div>
+
+                <div class="processo">
+                    <h3>No nectar</h3>
+                    <ul>
+                        <li>Mover card para aba de CDU </li>
+                    </ul>
+
+                </div>
+
+            </div>
+
+            <div class="processos" id="observaçoes">
+                <h2>Observaçoes</h2>
+
+                <div class="processo">
+                    <h3></h3>
+                    <ul>
+                        <li>Quando a proposta ficar errada, marcar nos comentários a Miriã e a Juliana, informando: A
+                            proposta anexada não corresponde à de licenças. Por favor, poderia fazer a troca e enviar a
+                            correta. Após enviar comentário voltar card para fase Proposta aguardando validação. Falar
+                            com a Miriã antes de enviar comentário e voltar card caso necessário.</li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="processos" id="">
+                <h2>teste</h2>
+
+
+                <div class="processo">
+                    <h3></h3>
+                    <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
+
+                <div class="processo">
+                    <h3></h3>
+                    <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
+
+                <div class="processo">
+                    <h3></h3>
+                    <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
+
+                <div class="processo">
+                    <h3></h3>
+                    <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="processos" id="">
+                <h2></h2>
+
+
+                <div class="processo">
+                    <h3></h3>
+                    <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
+
+                <div class="processo">
+                    <h3></h3>
+                    <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
+
+                <div class="processo">
+                    <h3></h3>
+                    <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
+
+                <div class="processo">
+                    <h3></h3>
+                    <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="processos" id="">
+                <h2>teste</h2>
+
+
+                <div class="processo">
+                    <h3></h3>
+                    <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
+
+                <div class="processo">
+                    <h3></h3>
+                    <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
+
+                <div class="processo">
+                    <h3></h3>
+                    <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
+
+                <div class="processo">
+                    <h3></h3>
+                    <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>
+                2024 &copy, MAXIMA TECH - Todos os direitos reservados. Desenvolvido por Sidney Rodrigues Magalhães
+            </p>
+        </div>
+    </footer>
+
+    <script src="./lib/bootstrap.bundle.min.js"></script>
+    <script src="./js/image-card.js"></script>
+    <script src="./js/copiar.js"></script>
+</body>
+
+</html>
