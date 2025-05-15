@@ -36,7 +36,6 @@
                 </button>
 
                 <nav class="collapse navbar-collapse" id="menu">
-
                     <ul class="nav navbar-nav nav-pills ms-auto d-flex flex-wrap">
                         <!-- <h1>Procedimentos</h1> -->
 
@@ -49,6 +48,9 @@
                         </li>
                         <li class="nav-item">
                             <a href="#pre-faturamento-cdu" class="nav-link">CDU-Usuário adicional</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#pre-faturamento-base" class="nav-link">Cliente Base</a>
                         </li>
                         <!-- <li class="nav-item">
                             <a href="#" class="nav-link"></a>
@@ -68,7 +70,13 @@
         <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true" class="container">
 
             <div class="processos" id="pre-faturamento-treinamento">
-                <h2>Pré Faturamento – Treinamento normal e bonificado</h2>
+                <ul>
+                    <li>4840 - (INATIVO) TREINAMENTO - PEDIDO DE VENDA</li>
+                </ul>
+
+            </div>
+            <div class="processos" id="pre-faturamento-treinamento">
+                <h2>Pré Faturamento – Treinamento normal e bonificado. Reinstalação</h2>
 
 
                 <div class="processo">
@@ -83,13 +91,15 @@
                 <div class="processo">
                     <h3>9703 - Preencher aba de produtos conforme proposta</h3>
                     <ul>
+                        <li>Pesquisar cliente pelo CNPJ</li>
                         <li>Guia produtos</li>
                         <li>Exclui tudo</li>
                         <li>Inserir o novo produto conforme proposta</li>
                         <ul>
                             <li>Situação: Bonificado ou Faturamento</li>
                             <li>Serviço conforme proposta</li>
-                            <li>Implantação: quase sempre não, coloca sim quando tiver implantação na ficha</li>
+                            <li>Implantação: quase sempre não, coloca sempre sim quando tiver implantação na proposta
+                            </li>
                         </ul>
 
                     </ul>
@@ -168,6 +178,11 @@
                         <li>Cria pasta com código e nome do cliente</li>
                         <li>Copia Ficha de faturamento e Proposta e colar na pasta que criou</li>
                     </ul>
+                    <ul class="links-botoes">
+                        <a target="_blank"
+                            href="https://drive.google.com/drive/u/3/folders/1gdf5J8xV9IKacSdn0kFdmYgMn7Cjnu66">Faturamento
+                            Máxima</a>
+                    </ul>
                 </div>
 
                 <div class="processo">
@@ -227,6 +242,7 @@
                 <div class="processo">
                     <h3>9703 - Preencher aba de produtos conforme proposta</h3>
                     <ul>
+                        <li>Pesquisar cliente pelo CNPJ</li>
                         <li>Guia lançamento de contrato mensal: inserir nova licenças igual quando vai fazer a adição de
                             licenças de produtos onprices</li>
                         <ul>
@@ -296,6 +312,11 @@
                         <li>Cria pasta com código e nome do cliente</li>
                         <li>Copia Ficha de faturamento e Proposta e colar na pasta que criou</li>
                     </ul>
+                    <ul class="links-botoes">
+                        <a target="_blank"
+                            href="https://drive.google.com/drive/u/3/folders/1gdf5J8xV9IKacSdn0kFdmYgMn7Cjnu66">Faturamento
+                            Máxima</a>
+                    </ul>
                 </div>
 
                 <div class="processo">
@@ -316,234 +337,448 @@
 
             </div>
 
-            <div class="processos" id="observaçoes">
-                <h2>Observaçoes</h2>
+            <div class="processos" id="pre-faturamento-base">
+                <h2>Pré Faturamento - Base</h2>
 
                 <div class="processo">
-                    <h3></h3>
+                    <h3>Néctar: baixar proposta e verificar formulário</h3>
                     <ul>
-                        <li>Quando a proposta ficar errada, marcar nos comentários a Miriã e a Juliana, informando: A
-                            proposta anexada não corresponde à de licenças. Por favor, poderia fazer a troca e enviar a
-                            correta. Após enviar comentário voltar card para fase Proposta aguardando validação. Falar
-                            com a Miriã antes de enviar comentário e voltar card caso necessário.</li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
+                        <li>Oportunidades</li>
+                        <li>Pré-Faturamento</li>
+                        <li>Começa pelo último</li>
+                        <li>Clicar 2 vezes par abrir</li>
+                        <li>Clica no clipe para abrir a proposta</li>
+                        <li>Baixa a proposta</li>
+                        <li>Confere os valores lançados, se está assinado (máxima e cliente), copia o cnpj, tem o Cnpj,
+                            prazo de prestação de serviços (item 2)</li>
                     </ul>
                 </div>
+
+
+                <div class="processo">
+                    <h3>9703</h3>
+                    <ul>
+                        <li>Busca o cliente </li>
+                        <li>Se for cliente Novo
+                            <ul>
+                                <li>Novo cliente</li>
+                                <li>Incluir cnpj</li>
+                                <li>Consulta</li>
+                                <li>Incluir formulário</li>
+                                <li>Situação: ativo</li>
+                                <li>Coloca dados do cliente</li>
+                                <li>Ramo de atividade: 1</li>
+                                <li>Cidade do IGBE conforme cidade do cliente</li>
+                                <li>Praça colocar estado</li>
+                                <li>Vendedor: olhar na proposta </li>
+                                <li>ERP conforme formulário de checkmate no Nectar</li>
+                                <li>Inscrição estadual conforme formulário de checkmate</li>
+                                <li>Preencher guia contatos conforme formulário de checkmate no Nectar e inclui (pode
+                                    ser
+                                    mais
+                                    de 01 caso tenha)</li>
+                                <li>Salva e copia o código do cliente</li>
+                                <li>Repete o código do cliente no cliente principal (Obs: ver quando for mais
+                                    empresas/filiais
+                                    pode ser diferente)</li>
+                                <li>Na guia posição financeira:
+                                    <ul>
+                                        <li>Filial: 1</li>
+                                        <li>Cobrança: Bics </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>Após cliente cadastrado ou base
+                            <ul>
+                                <li>Guia produtos - Tipo Pontual
+                                    <ul>
+                                        <li>Exclui tudo</li>
+                                        <li>Colocar conforme proposta </li>
+                                        <li>Situação: Faturamento ou Bonificado</li>
+                                        <li>Serviço: ver proposta: Setup, serviço, migração: Implantação</li>
+                                        <li>Incluir</li>
+                                        <li>Obs: Migração - Setup - Ativação e Treinamento - SaaS – maxPedido: Serviço
+                                            Licença de Uso</li>
+                                    </ul>
+                                </li>
+                                <li>Guia de Lançamento de contrato mensal
+                                    <ul>
+                                        <li>Seleciona produto</li>
+                                        <li>Valor mensalidade</li>
+                                        <li>Dia de vencimento</li>
+                                        <li>Data de início – próximo faturamento</li>
+                                        <li>Recorrente: sim</li>
+                                        <li>Paga comissão: sim</li>
+                                        <li>Data final: +1 ano</li>
+                                        <li>RCA: Vendedor</li>
+                                        <li>Comissão: 100%</li>
+                                        <li>Quantidade de usuários</li>
+                                        <li>Tipo de contrato: ver contrato quase 100% e anual</li>
+                                        <li>Incluir</li>
+                                        <li>Marca o campo suspender</li>
+                                    </ul>
+                                </li>
+                                <li>Guia Contatos – Verifica se responsável está cadastrado, se não cadastrar
+                                    <ul>
+                                        <li>Nome do responsável pela compra: ver proposta</li>
+                                        <li>Cargo: Geralmente – TI</li>
+                                        <li>Tipo de contato: 5</li>
+                                        <li>Salva e entra novamente</li>
+                                    </ul>
+                                </li>
+                                <li>Guia Pré-Faturamento
+                                    <ul>
+                                        <li>Incluir</li>
+                                        <li>Responsável pela venda – conforme proposta – (nome + Inside)</li>
+                                        <li>Responsável pela compra – ver proposta</li>
+                                        <li>Data da venda: data do dia que está fazendo o Pré-faturamento</li>
+                                        <li>Guia Produto: Insere o produto: pontual
+                                            <ul>
+                                                <li>Vencimento de acordo com próximo faturamento ou como na proposta
+                                                </li>
+                                                <li>Obs: Sempre que tiver migração lançar como setup
+                                                    <ul>
+                                                        <li>Obs: Sempre que tiver migração lançar como setup</li>
+                                                        <li>Contrato de 6 meses - 50% do SMS 1 mês - sem comissão.
+                                                            (confirmar)</li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>Guia Suporte: Insere o produto: somente Licença de usuário mensal
+                                            <ul>
+                                                <li>o Obs: Sempre que tiver migração lançar o nome do produto normal
+                                                    <ul>
+                                                        <li>Ex: proposta Migração - Licença de uso mensal maxPedido
+                                                            Cloud
+                                                            Na Guia Suporte pre faturamento: Licença de uso mensal
+                                                            MaxPedido
+                                                            Cloud
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>Guia Comissão:
+                                            <ul>
+                                                <li>Gerente de negócio: inserir vendedor da proposta
+                                                    <ul>
+                                                        <li>5% quando não tiver demonstrador</li>
+                                                        <li>3,5% quando tiver demonstrador</li>
+                                                    </ul>
+                                                </li>
+                                                <li>Demonstrador: 2%</li>
+                                                <li>Parceiro: 15%</li>
+                                                <li>Apoio técnico: 2%</li>
+                                                <li>100% Máxima: 1%</li>
+                                                <li>SDR: 1,5%</li>
+                                                <li>BDR: 2,5%</li>
+                                                <li>Closer: 2%</li>
+                                            </ul>
+                                        </li>
+                                        <li>Rotina 517 para verificar os participantes da venda
+                                            <ul>
+                                                <li>RCA – para pesquisar</li>
+                                                <li>Guia Resultado de pesquisa
+                                                    <ul>
+                                                        <li>Clica em código rca para classificar e ver o próximo código
+                                                            de
+                                                            cadastro</li>
+                                                        <li>Pesquisa um semelhante primeiro. Ex: Parceiro, demo, ou
+                                                            Máxima
+                                                            100%. Verifica na Guia Numeradores o número no campo Próximo
+                                                            Cod
+                                                            Cli</li>
+                                                    </ul>
+                                                </li>
+                                                <li>Incluir: nome, cpf, rg, marca pessoa física, supervisor sempre 3,
+                                                    dados
+                                                    bancário quando parceiro, guia numeradores conforme consultado
+                                                    anteriormente, guia vendas/comissões: tipo de venda sempre interna.
+                                                    INSS
+                                                    sempre 0.</li>
+                                            </ul>
+                                        </li>
+                                        <li>Guia pagamento: tipo pontual</li>
+                                        <li>Insere observação da proposta. Se for proposta de prazo de 6 meses inserir
+                                            tambem: Proposta com validade de 06 meses.</li>
+                                        <li>Em observação: Quando Upgrade: Upgrade MaxPedido - Sem diferença de
+                                            mensalidade. <br>
+                                            ERP - Winthor
+                                        </li>
+                                        <li>Visualizar – para conferir tudo</li>
+                                        <li>Salvar</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="processo">
+                    <h3>Salvar ficha de Faturamento, Implantação e proposta</h3>
+                    <ul>
+                        <li>Pasta
+                            <ul>
+                                <li>Implantação: Tudo que tem implantação e liberação de chave</li>
+                                <li>Faturamento: treinamento, CDU, customização</li>
+                            </ul>
+                        </li>
+                        <li>Criar pasta com código e nome do cliente </li>
+                        <li>Salvar ficha de implantação
+                            <ul>
+                                <li>Guia Pre faturamento</li>
+                                <li>Icone impressora abaixo do lado de salvar</li>
+                                <li>Imprimir ficha de implantação</li>
+                                <li>Salvar na pasta Z:\Administrativo\FATURAMENTO Criar </li>
+                            </ul>
+                        </li>
+                        <li>Salvar ficha de Faturamento
+                            <ul>
+                                <li>Guia Pre faturamento</li>
+                                <li>Icone da impressora da esquerda</li>
+                                <li>Salvar na pasta Z:\Administrativo\FATURAMENTO Criar </li>
+                            </ul>
+                        </li>
+                        <li>Salvar proposta</li>
+                        <li>Ao salvar os arquivos na pasta do cliente, colocar nome conforme exemplo:
+                            <ul>
+                                <li>Exemplo: 03268 - 2024 12 30 – Implantação (Código – Data em inglês – Implantação)
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="processo">
+                    <h3>Colocar no Driver</h3>
+                    <ul class="links-botoes">
+                        <a target="_blank"
+                            href="https://drive.google.com/drive/u/3/folders/1gdf5J8xV9IKacSdn0kFdmYgMn7Cjnu66">Faturamento
+                            Máxima</a>
+                    </ul>
+                </div>
+
+                <div class="processo">
+                    <h3>Colocar na pasta de clientes</h3>
+                    <ul>
+                        <li>Copiar ficha de faturamento e proposta para a pasta : Z:\Comercial-Adm\007 - Controle de
+                            clientes\001 - Arquivo Digital - Clientes Máxima</li>
+                    </ul>
+                </div>
+
+
+
+                <div class="processo">
+                    <h3>Cadastrar cliente no gira</h3>
+                    <ul>
+                        <li>Seleciona o produto</li>
+                        <li>Add organização</li>
+                    </ul>
+                    <ul class="links-botoes">
+                        <a target="_blank" href="https://suporte.maximatech.com.br/secure/Dashboard.jspa">Jira
+                            Máxima</a>
+                    </ul>
+                </div>
+
+
+                <div class="processo">
+                    <h3>No néctar – Anexar ficha e comenta e ganha</h3>
+                    <ul>
+                        <li>Responder card, marcar Fabiana, com informaçoes do faturamento: Ex:</li>
+                        <textarea readonly id="8" rows="7" class="output-texto">
+                    Segue ficha de implantação
+                    
+                    2804 - OPTIMI S/A
+
+                    MaxInsight  1 usu  R$ 0,00
+
+                    ERP: WINTHOR
+
+                    Responsável: Vinicius Faria  - vinicius.faria@stoatacadista.com.br / 61 9644-3738
+
+                    Motivo: Proposta com validade de 06 meses. Condição é devido a Máxima não atender o relatório de acompanhamento de produtividade dos vendedores. Se a Máxima passar a atender o relatório a gratuidade da mensalidade será suspensa. Proposta com custo zero autorizada por Bruno Simião e Thiago Melo
+
+                    Inside: Nome
+                    </textarea>
+                        <button onclick="copiar('8')" class="botao_ação">Copiar</button>
+                    </ul>
+                </div>
+                <div class="processo">
+                    <h3>No Nectar: mover card</h3>
+                    <ul>
+                        <li>Move para ganha quando não gera contrato</li>
+                        <li>Mover card para contrato enviado quando é gerado o contrato</li>
+                    </ul>
+                </div>
+                <div class="processo">
+                    <h3>Preencher planilhas</h3>
+                    <ul>
+                        <li class="links-botoes">
+                            <a target="_blank"
+                                href="https://docs.google.com/spreadsheets/d/1bckqzY0i8Bf4aqTSe2NRmKpJpPa2qNP9/edit?gid=992028050#gid=992028050">Planilhas
+                                de controle - Comissão / Chave / SMS</a>
+                        </li>
+                        <br>
+                        <li class="links-botoes">
+                            <a target="_blank"
+                                href="https://docs.google.com/spreadsheets/d/1shMQibC1JBtfl34-7WpFBY9HRvbAg-MGF6V-uNtSPCo/edit?gid=1326778374#gid=1326778374">Planlilha
+                                vendas 2025</a>
+                        </li>
+                        <ul>
+                            <li>Não colocar assessoria</li>
+                            <li>Demonstrador só preenche</li>
+                        </ul>
+                    </ul>
+                </div>
+                <div class="processo">
+                    <h3>Enviar contrato se necessário</h3>
+                    <ul>
+                        <li>Preencher planilhas de contrato</li>
+                    </ul>
+                </div>
+
             </div>
 
-            <div class="processos" id="">
-                <h2>teste</h2>
+        </div>
+
+        <div class="processos" id="">
+            <h2></h2>
 
 
-                <div class="processo">
-                    <h3></h3>
-                    <ul>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                    </ul>
-                </div>
-
-                <div class="processo">
-                    <h3></h3>
-                    <ul>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                    </ul>
-                </div>
-
-                <div class="processo">
-                    <h3></h3>
-                    <ul>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                    </ul>
-                </div>
-
-                <div class="processo">
-                    <h3></h3>
-                    <ul>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                    </ul>
-                </div>
+            <div class="processo">
+                <h3></h3>
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
             </div>
 
-            <div class="processos" id="">
-                <h2></h2>
-
-
-                <div class="processo">
-                    <h3></h3>
-                    <ul>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                    </ul>
-                </div>
-
-                <div class="processo">
-                    <h3></h3>
-                    <ul>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                    </ul>
-                </div>
-
-                <div class="processo">
-                    <h3></h3>
-                    <ul>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                    </ul>
-                </div>
-
-                <div class="processo">
-                    <h3></h3>
-                    <ul>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                    </ul>
-                </div>
+            <div class="processo">
+                <h3></h3>
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
             </div>
 
-            <div class="processos" id="">
-                <h2>teste</h2>
-
-
-                <div class="processo">
-                    <h3></h3>
-                    <ul>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                    </ul>
-                </div>
-
-                <div class="processo">
-                    <h3></h3>
-                    <ul>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                    </ul>
-                </div>
-
-                <div class="processo">
-                    <h3></h3>
-                    <ul>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                    </ul>
-                </div>
-
-                <div class="processo">
-                    <h3></h3>
-                    <ul>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                    </ul>
-                </div>
+            <div class="processo">
+                <h3></h3>
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
             </div>
+
+            <div class="processo">
+                <h3></h3>
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="processos" id="">
+            <h2>teste</h2>
+
+
+            <div class="processo">
+                <h3></h3>
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+
+            <div class="processo">
+                <h3></h3>
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+
+            <div class="processo">
+                <h3></h3>
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+
+            <div class="processo">
+                <h3></h3>
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+        </div>
 
         </div>
     </main>
