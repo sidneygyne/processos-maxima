@@ -36,6 +36,7 @@ main h3 {
     padding-top: 30px;
     padding-left: 30px;
     font-size: 1.5rem;
+    color: #bafffd;
 }
 
 main ul {
@@ -68,6 +69,9 @@ p {
     padding-bottom: 0px;
 }
 
+ul {
+    margin: 2px 0;
+}
 .container {
     max-width: 1024px;
     width: 100%;
@@ -115,7 +119,7 @@ p {
     color: #03f738
 }
 
-a,
+/* a,
 button {
     border: 3px solid white;
     padding: 10px;
@@ -123,7 +127,7 @@ button {
     text-decoration: none;
     color: black;
     background-color: #c4e1f5;
-}
+} */
 
 a:hover,
 button:hover {
@@ -131,8 +135,22 @@ button:hover {
     color: white;
 }
 
-.links-botoes {
+/* .links-botoes {
     gap: 20px;
     display: flex;
-    margin-top: 10px;
+    margin: 10px 0;
+} */
+
+.codigo, a {
+    border: none;
+    padding: 5px 8px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    background-color: #00b853;
+}
+
+.codigo:hover, a:hover {
+background-color: #8eefb9;
+    color: black;
 }
