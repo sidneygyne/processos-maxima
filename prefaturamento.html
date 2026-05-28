@@ -1,13 +1,12 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 
-<head>
+<head></head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tec Info</title>
 
-    <link rel="stylesheet" href="./lib/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./lib/bootstraptylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/navbar.css">
     <link rel="stylesheet" href="./css/footer.css">
     <link rel="stylesheet" href="./css/main.css">
@@ -20,7 +19,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-
+</head>
 <body>
 
     <header id="cabecalho">
@@ -58,12 +57,15 @@
                         <li class="nav-item">
                             <a href="#pre-faturamento-troca-cnpj" class="nav-link">Troca CNPJ</a>
                         </li>
-                        <!-- <li class="nav-item">
-                            <a href="#" class="nav-link"></a>
-                        </li> -->
                         <li class="nav-item">
-                            <a href="/puca.html" class="nav-link">Puca</a>
+                            <a href="/codigos-pre-faturamento.html#codigos" target="_blank" class="nav-link">Códigos</a>
                         </li>
+                                                <li class="nav-item">
+                            <a href="/codigos-pre-faturamento.html#comissoes" target="_blank" class="nav-link">Comissão</a>
+                        </li>
+                        <!-- <li class="nav-item">
+                            <a href="/puca.html" class="nav-link">Puca</a>
+                        </li> -->
                     </ul>
                 </nav>
             </div>
@@ -73,7 +75,7 @@
     <main>
 
         <!-- div responsavel por deixar o item do menu ativo -->
-        <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true" class="container">
+        <div data-bs-spy="scroll" data-bs-target="#cabecalho" data-bs-smooth-scroll="true" class="container">
 
 
             <div class="processos" id="pre-faturamento-treinamento">
@@ -226,9 +228,8 @@
                     <h3>Subir ficha no Hubspot com os dados</h3>
                     <ul>
                         <li>Cria uma nova observação</li>
-                        <li>Em observação marcar @Luna Sena da governança e inserir mascara conforme modelo abaixo:
-                        <li>Obs: da Máscara: Colar primeiro no bloco de notas para depois copiar e colocar no nectar
-                        </li>
+                        <li>Em observação marcar @Luna Sena da governança e inserir mascara conforme modelo abaixo:</li>
+                        <li>Obs: da Máscara: Colar primeiro no bloco de notas para depois copiar e colocar no HubSpot</li>
                         <textarea readonly id="7" rows="7" class="output-texto">
                                     Segue ficha de implantação
                                     
@@ -247,7 +248,7 @@
                                     Motivo: PEDIDO-53571 - BAR CODE NO APK.
                                     </textarea>
                         <button onclick="copiar('7')" class="botao_ação">Copiar</button>
-                        </li>
+                       
 
                         <li>Insere ficha e implantação</li>
                         <li>Enviar</li>
@@ -278,23 +279,22 @@
                 <h2>Pré Faturamento – CDU – usuário adicional</h2>
 
                 <h3>Hubspot - Baixar proposta</h3>
-                    <ul>
-                        <li>Baixar proposta</li>
-                        <li>Conferir proposta
-                            <ul>
-                                <li>CNPJ</li>
-                                <li>Assinaturas (Proposta: Cliente e Vanusa, Contrato: + Rodrigo e Rafael)</li>
-                                <li>Verificar se representante legal que assinou</li>
-                                <li>Observação</li>
-                                <li>Vencimento</li>
-                                <li>Prazo do contrato</li>
-                                <li>Índice de Reajuste (Estará na clausula ou no observação)</li>
-                                <li>Nome e valor das soluções</li>
-                                <li>Assinaturas</li>
-                                <li>Participantes (HubsPot)</li>
-                            </ul>
-                        </li>
-                    </ul>
+                <ul>
+                    <li>Baixar proposta</li>
+                    <li>Conferir proposta
+                        <ul>
+                            <li>CNPJ</li>
+                            <li>Assinaturas (Proposta: Cliente e Vanusa)</li>
+                            <li>Verificar se representante legal que assinou</li>
+                            <li>Observação</li>
+                            <li>Vencimento</li>
+                            <li>Prazo do contrato</li>
+                            <li>Índice de Reajuste (Estará na clausula ou no observação)</li>
+                            <li>Nome e valor das soluções</li>
+                            <li>Participantes (HubsPot)</li>
+                        </ul>
+                    </li>
+                </ul>
 
                 <div class="processo">
                     <h3>9703 - Lançamento de contrato mensal e chave</h3>
@@ -399,7 +399,7 @@
                 </div>
 
                 <div class="processo">
-                    <h3>No nectar</h3>
+                    <h3>No hubspot</h3>
                     <ul>
                         <li>Mover card para aba de CDU </li>
                     </ul>
@@ -440,14 +440,13 @@
                         <li>Conferir proposta
                             <ul>
                                 <li>CNPJ</li>
-                                <li>Assinaturas (Proposta: Cliente e Vanusa, Contrato: + Rodrigo e Rafael)</li>
+                                <li>Assinaturas (Proposta: Cliente e Vanusa)</li>
                                 <li>Verificar se representante legal que assinou</li>
                                 <li>Observação</li>
                                 <li>Vencimento</li>
                                 <li>Prazo do contrato</li>
                                 <li>Índice de Reajuste (Estará na clausula ou no observação)</li>
                                 <li>Nome e valor das soluções</li>
-                                <li>Assinaturas</li>
                                 <li>Participantes (HubsPot)</li>
                             </ul>
                         </li>
@@ -556,25 +555,11 @@
                                             </ul>
                                         </li>
                                         <li>Guia Comissão:
-                                            <ul>
-                                                <li>Gerente de negócio: inserir vendedor da proposta
-                                                    <ul>5% quando não tiver demonstrador</ul>
-                                                    <ul>3,5% quando tiver demonstrador</ul>
-                                                    <ul>5% quando for usuarios adicionais</ul>
-                                                </li>
-                                                <li>No Hubspotolhar a validação nos campos da laterar esquerda</li>
-                                                <li>Demonstrador: 2% (NOME + DEMO)</li>
-                                                <li>Parceiro: 15%</li>
-                                                <li>Apoio técnico: 1%</li>
-                                                <li>100% Máxima: 1,5% - Base // 3% - Novo // 0% Ronan Paula Junior // 1% Capacitação/treinameno/reinstalação/consultoria</li>
-                                                <li>Inbound: 1,5%</li>
-                                                <li>Outbound: 2,5%</li>
-                                                <li>Closer: 2%</li>
-                                                <li>Origem CustomerCare - CC: 2,5%</li>
-                                                <li>Ana Paula - 1,5%</li>
-                                                <li>Indicação - Indicação Interna - Inside Sales - Participante - 2%</li>
+                                            <ul class="links-botoes">
+                                                <a target="_blank" href="/codigos-pre-faturamento.html#comissoes">Ver %
+                                                    Comissões</a>
                                             </ul>
-                                        </li>
+                                            <br>
                                         <li>Rotina 517 para verificar os participantes da venda
                                             <ul>
                                                 <li>RCA – para pesquisar</li>
@@ -605,24 +590,56 @@
                                                 <li>Venda Interna
                                             </ul>
                                         </li>
-                                        <li>Guia pagamento: tipo pontual</li>
-                                        <li>Insere observação da proposta.
+                                        <br>
+                                </li>
+                                <li>Rotina 517 para verificar os participantes da venda
+                                    <ul>
+                                        <li>RCA – para pesquisar</li>
+                                        <li>Guia Resultado de pesquisa
                                             <ul>
-                                                <li>Quando Upgrade: Upgrade MaxPedido - Sem diferença de mensalidade
+                                                <li>clica em código rca para classificar e ver o próximo código
+                                                    de cadastro
                                                 </li>
-                                                <li>Se for proposta de prazo de 6 meses inserir tambem: Proposta com
-                                                    validade de 06
-                                                    meses.
-                                                </li>
-                                                <li>ERP - Winthor</li>
+                                                <li>Pesquisa um semelhante primeiro. Ex: Parceiro, demo, ou
+                                                    Máxima 100%.
+                                                    Verifica na Guia Numeradores o número no campo Próximo Cod
+                                                    Cli</li>
                                             </ul>
                                         </li>
-                                        <li>Visualizar – para conferir tudo</li>
-                                        <li>Salvar</li>
+
+                                        <li>Incluir: nome, cpf, rg, marca pessoa física, supervisor sempre 3,
+                                            dados bancário
+                                            quando parceiro, guia numeradores conforme consultado anteriormente,
+                                            guia
+                                            vendas/comissões: tipo de venda sempre interna. INSS sempre 0.</li>
+                                        <li>Quando tiver cadastro em uma categoria, ir no cadastro e pegar nome,
+                                            cpf e rg
+                                            para novo cadastro</li>
+                                        <li>Inserir registro: supervisor sempre 3</li>
+                                        <li>Guia numeradores preencher ultimo campo – 10 – Verificar cadastro
+                                            semelhante da
+                                            mesma categoria para ver numero a preench</li>
+                                        <li>Venda Interna
                                     </ul>
                                 </li>
+                                <li>Guia pagamento: tipo pontual</li>
+                                <li>Insere observação da proposta.
+                                    <ul>
+                                        <li>Quando Upgrade: Upgrade MaxPedido - Sem diferença de mensalidade
+                                        </li>
+                                        <li>Se for proposta de prazo de 6 meses inserir tambem: Proposta com
+                                            validade de 06
+                                            meses.
+                                        </li>
+                                        <li>ERP - Winthor</li>
+                                    </ul>
+                                </li>
+                                <li>Visualizar – para conferir tudo</li>
+                                <li>Salvar</li>
                             </ul>
                         </li>
+                    </ul>
+                    </li>
                     </ul>
                 </div>
 
@@ -790,7 +807,6 @@
                                 <li>Prazo do contrato</li>
                                 <li>Índice de Reajuste (Estará na clausula ou no observação)</li>
                                 <li>Nome e valor das soluções</li>
-                                <li>Assinaturas</li>
                                 <li>Participantes (HubsPot)</li>
                             </ul>
                         </li>
@@ -942,23 +958,13 @@
 
                                 <li>Guia Comissão:
                                     <ul>
-                                        <li>No Hubspotolhar a validação nos campos da laterar esquerda</li>
-                                        <li>Gerente de negócio: inserir vendedor da proposta
-                                            <ul>5% quando não tiver demonstrador</ul>
-                                            <ul>3,5% quando tiver demonstrador</ul>
-                                            <ul>5% quando for usuarios adicionais</ul>
+                                        <li>Guia Comissão:
+                                            <ul class="links-botoes">
+                                                <a target="_blank" href="/codigos-pre-faturamento.html#comissoes">Ver %
+                                                    Comissões</a>
+                                            </ul>
+                                            <br>
                                         </li>
-                                        <li>No Hubspotolhar a validação nos campos da laterar esquerda</li>
-                                        <li>Demonstrador: 2% (NOME + DEMO)</li>
-                                        <li>Inbound: 1,5%</li>
-                                        <li>Outbound: 2,5%</li>
-                                        <li>Origem CustomerCare - CC: 2,5%</li>
-                                        <li>100% Máxima: 1,5% - Base // 3% - Novo // 0% Ronan Paula Junior // 1% Capacitação/treinameno/reinstalação/consultoria</li>
-                                        <li>Parceiro: 15%</li>
-                                        <li>Apoio técnico: 1%</li>
-                                        <li>Closer: 2%</li>
-                                        <li>Ana Paula - 1,5%</li>
-                                        <li>Indicação - Indicação Interna - Inside Sales - Participante - 2%</li>
 
                                         <li>Rotina 517 para verificar os participantes da venda
                                             <ul>
@@ -1178,7 +1184,7 @@
                             
 
                     </textarea>
-                        <button onclick="copiar('9')" class="botao_ação">Copiar</button>
+                        <button onclick="copiar('8')" class="botao_ação">Copiar</button>
                     </ul>
                 </div>
 
@@ -1199,14 +1205,13 @@
                         <li>Conferir proposta
                             <ul>
                                 <li>CNPJ</li>
-                                <li>Assinaturas (Proposta: Cliente e Vanusa, Contrato: + Rodrigo e Rafael)</li>
+                                <li>Assinaturas (Proposta + Contrato: Cliente, Rodrigo e Rafael)</li>
                                 <li>Verificar se representante legal que assinou</li>
                                 <li>Observação</li>
                                 <li>Vencimento</li>
                                 <li>Prazo do contrato</li>
                                 <li>Índice de Reajuste (Estará na clausula ou no observação)</li>
                                 <li>Nome e valor das soluções</li>
-                                <li>Assinaturas</li>
                                 <li>Participantes (HubsPot)</li>
                             </ul>
                         </li>
@@ -1445,7 +1450,7 @@
                     <h3>No Hubspot – Anexar ficha e comenta</h3>
                     <ul>
                         <li>Responder card, marcar Fabiana, com informaçoes do faturamento: Ex:</li>
-                        <textarea readonly id="8" rows="7" class="output-texto">
+                        <textarea readonly id="9" rows="7" class="output-texto">
                             Segue ficha de implantaçã
                            
                             3518 - MANA PRODUTOS ALIMENTICIOS E ATACADO LTDA

@@ -70,7 +70,7 @@ p {
 }
 
 ul {
-    margin: 2px 0;
+    margin: 10px 2px 10px;
 }
 .container {
     max-width: 1024px;
@@ -111,8 +111,8 @@ ul {
 
 .ul-caixa-texto,
 .li-caixa-texto {
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 .destaque {
@@ -155,3 +155,8 @@ background-color: #8eefb9;
     color: black;
 }
 
+h4 {
+    font-size: 16px;
+    padding-left: 60px;
+    color: #03f738;
+}
