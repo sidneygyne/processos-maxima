@@ -98,10 +98,10 @@ ul {
     line-height: 1.5;
     letter-spacing: 1px;
     margin-bottom: 10px;
-    border: 1px solid ;
+    border: 1px solid #ffffff ;
     background-color:  #fafafa;
-    display: flex;
-    white-space: pre-line
+    /* display: flex; */
+    white-space: pre-line;
     /* text-indent: 0; */
 }  
 
@@ -128,11 +128,12 @@ button {
     color: black;
     background-color: #c4e1f5;
 } */
+ 
 
 a:hover,
 button:hover {
-    background-color: #131e2d;
-    color: white;
+    background-color: #d6c650;
+    color: black;
 }
 
 /* .links-botoes {
@@ -146,12 +147,12 @@ button:hover {
     padding: 5px 8px;
     border-radius: 5px;
     text-decoration: none;
-    color: white;
+    color: black;
     background-color: #00b853;
 }
 
-.codigo:hover, a:hover {
-background-color: #8eefb9;
+.codigo:hover, a:hover, .li-assinar-contrato button:hover {
+background-color: #d6c650;
     color: black;
 }
 
@@ -159,4 +160,47 @@ h4 {
     font-size: 16px;
     padding-left: 60px;
     color: #03f738;
+}
+
+.ul-assinar-contrato {
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    list-style: none;
+    padding-left: 8px;
+}
+
+.li-assinar-contrato {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    list-style: circle;
+    padding: 2px;
+    
+}
+
+
+.li-assinar-contrato::before {
+    content: "○";
+    margin-right: 10px;
+}
+
+
+.botao_acao_contrato {
+    padding: 0;
+    margin: 0;
+}
+
+.li-assinar-contrato p {
+    padding: 0;
+    margin: 0;
+}
+
+button,
+.li-assinar-contrato button {
+    background-color: #00b853;
+    border: none;
+    border-radius: 5px;
+    padding: 0px 10px;
 }

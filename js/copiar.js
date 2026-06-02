@@ -1,14 +1,35 @@
 function copiar(idTexto) {
-    var textoCop = document.getElementById(idTexto);
-    var text = textoCop.value.replace(/^\s+/gm, ''); // Remove espaços no início de cada linha
+    var elemento = document.getElementById(idTexto);
+
+    if (!elemento) {
+        alert('Elemento não encontrado!');
+        return;
+    }
+
+    // ✅ funciona para textarea E para p/div
+    var text = (elemento.value || elemento.innerText).replace(/^\s+/gm, '');
+
     navigator.clipboard.writeText(text).then(function() {
-        alert('Texto copiado!');
+        // alert('Texto copiado!');
     }, function() {
         alert('Erro ao copiar texto.');
     });
 }
 
-// PROXIMO ID NO HTML 9
+
+// PROXIMO ID NO HTML 24
+
+
+
+// function copiar(idTexto) {
+//     var textoCop = document.getElementById(idTexto);
+//     var text = textoCop.value.replace(/^\s+/gm, ''); // Remove espaços no início de cada linha
+//     navigator.clipboard.writeText(text).then(function() {
+//         alert('Texto copiado!');
+//     }, function() {
+//         alert('Erro ao copiar texto.');
+//     });
+// }
 
 
 
